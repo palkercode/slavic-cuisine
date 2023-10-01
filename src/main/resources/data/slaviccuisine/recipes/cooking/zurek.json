@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:crops/wheat"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "slaviccuisine:zurek"
+  }
+}

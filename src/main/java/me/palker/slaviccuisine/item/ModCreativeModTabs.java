@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RASSOLNIK.get());
                         output.accept(ModItems.CABBAGE_SOUP.get());
                         output.accept(ModItems.UKHA.get());
+                        output.accept(ModItems.ZUREK.get());
+                        output.accept(ModItems.COMPOTE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
