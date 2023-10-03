@@ -50,7 +50,7 @@ public class ModItems {
     public static final RegistryObject<Item> COMPOTE = ITEMS.register("compote",
             () -> new DrinkableItem(
                     new Item.Properties().food(new FoodProperties.Builder().alwaysEat()
-                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 6000, 0), 1.0F).build())
+                            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 3200, 0), 1.0F).build())
                             .craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), true, false));
 
     public static void register(IEventBus eventBus) {
