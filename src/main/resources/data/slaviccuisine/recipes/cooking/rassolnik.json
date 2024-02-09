@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "farmersdelight:wolf_prey"
+      },
+      {
+        "item": "minecraft:beef"
+      }
+    ],
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:crops/rice"
+    },
+    {
+      "tag": "forge:crops/potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "slaviccuisine:rassolnik"
+  }
+}
